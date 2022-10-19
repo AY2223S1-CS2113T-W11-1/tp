@@ -4,7 +4,7 @@ package seedu.moneygowhere.commands;
  * Stores the view-target command and its arguments.
  */
 @SuppressWarnings("FieldMayBeFinal")
-public class ConsoleCommandViewTarget {
+public class ConsoleCommandViewTarget extends ConsoleCommand{
     private int targetIndex;
 
     public ConsoleCommandViewTarget(int targetIndex){
